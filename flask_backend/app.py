@@ -14,12 +14,12 @@ def sre():
 
 @app.route("/frontend")
 def frontend():
-    data = {"message": "Hello Front End Page!"}
+    data = {"message": "Hello front end page!"}
     return jsonify(data)
 
 @app.route("/backend")
 def backend():
-    data = {"message": "Hello Back End Page!"}
+    data = {"message": "Hello back end page!"}
     return jsonify(data)
 
 if __name__ == "__main__":
