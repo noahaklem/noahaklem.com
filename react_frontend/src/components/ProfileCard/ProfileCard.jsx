@@ -1,10 +1,11 @@
 import React from 'react'
+import "./ProfileCard.css"
+import profilePicture from "../../assets/profilePicture.jpg"
 
 const ProfileCard = () => {
   return (
-    <div>
-        <h3>Profile One</h3>
-        <img />
+    <div className='profile-card'>
+        <img src= { profilePicture }/>
         <button>Select</button>
     </div>
   )
