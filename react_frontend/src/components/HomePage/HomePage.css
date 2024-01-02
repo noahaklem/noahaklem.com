@@ -1,0 +1,32 @@
+.home-page {
+    margin: 0;
+    background-color: white;
+    /* font-family: find a font you like */
+}
+
+.home-page-hero {
+    display: flex;
+    justify-content: space-between;
+    height: 50%;
+    background-color: aliceblue;
+}
+
+.home-page-hero > h1 {
+    font-size: 64px;
+    margin: 100px 0 0 100px;
+}
+
+.home-page-hero > img {
+    margin-top: 100px;
+    border-radius: 50%;
+    max-width: 30%;
+}
+
+.home-page-cards-container {
+    position: absolute;
+    top: 550px;
+    background-color: beige;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
