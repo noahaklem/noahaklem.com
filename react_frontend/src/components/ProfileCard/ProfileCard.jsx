@@ -1,12 +1,12 @@
 import React from 'react'
 import "./ProfileCard.css"
-import profilePicture from "../../assets/profilePicture.jpg"
+import SmallProfilePicture from '../../assets/SmallProfilePicture.jpg'
 
-const ProfileCard = () => {
+const ProfileCard = ({img, title, path}) => {
   return (
     <div className='profile-card'>
-        <img src= { profilePicture }/>
-        <button>Select</button>
+        <img src= { img }/>
+        <button>{ title }</button>
     </div>
   )
 }
