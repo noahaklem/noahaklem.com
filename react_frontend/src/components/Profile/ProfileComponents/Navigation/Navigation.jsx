@@ -10,7 +10,7 @@ const Navigation = () => {
         </div>
         <div className='navigation-links-container'>
             <ul>
-                <a id="#About"><li>About</li></a>
+                <li>About</li>
                 <li>Technologies</li>
                 <li>Testimonials</li>
                 <li>Projects</li>
