@@ -1,0 +1,41 @@
+.navigation {
+    width: 100%;
+    background-color: aliceblue;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation-picture-container > img {
+    margin-left: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.navigation-links-container > ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.navigation-links-container > ul > li {
+    margin: 0 30px;
+}
+
+.navigation-links-container > ul > li:hover {
+    cursor: pointer;
+}
+
+.navigation-button-container > button {
+    border: none;
+    margin: 0 10px;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.navigation-button-container > button:hover {
+    cursor: pointer;
+    
+}
