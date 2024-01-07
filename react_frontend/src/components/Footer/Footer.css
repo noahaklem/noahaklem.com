@@ -1,4 +1,5 @@
 .footer {
+    letter-spacing: 2px;
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -14,7 +15,7 @@
 
 .footer-name > h3 {
     margin-left: 40px;
-    font-size: 24px;
+    font-size: 18px;
 }
 
 .footer-name > img {

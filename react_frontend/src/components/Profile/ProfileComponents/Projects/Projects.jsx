@@ -19,7 +19,7 @@ const Projects = () => {
         </div>
         <div className='selected-project-container'>
             <div className='selected-project-image-container'>
-                <img src='' alt='selected project image' />
+                <img src='' alt='selected project' />
             </div>
             <div className='selected-project-title-container'>
                 <h4>Project Title</h4>

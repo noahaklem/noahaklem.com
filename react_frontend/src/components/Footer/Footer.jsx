@@ -6,13 +6,13 @@ const Footer = () => {
   return (
     <div className='footer'>
         <div className='footer-name'>
-            <img src={ SmallProfilePicture } />
+            <img src={ SmallProfilePicture } alt="something meaningful"/>
             <h3>Noah A Klem</h3>
         </div>
         <div className='footer-links'>
-            <a>Mobile App</a>
-            <a>GitHub</a>
-            <a>Resume</a>
+            <a href='www.google.com'>Mobile App</a>
+            <a href='www.google.com'>GitHub</a>
+            <a href='www.google.com'>Resume</a>
         </div>
         <div className='footer-thanks'>
             <p>Thank you for visiting!</p>

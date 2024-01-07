@@ -1,5 +1,5 @@
 .projects {
-    background-color: aqua;
+    
     width: 100%;
     height: 550px;
     display: flex;
@@ -7,7 +7,7 @@
 }
 
 .projects-container {
-    background-color: coral;
+    
     width: 50%;
     height: 100%;
     display: flex;
@@ -15,18 +15,18 @@
     justify-content: center;
 }
 
-.projects-title-container {
-    background-color: azure;
-}
+/* .projects-title-container {
+    
+} */
 
 .projects-title-container > h3 {
     font-size: 38px;
     margin-left: 50px;
 }
 
-.project-description-container {
-    background-color: beige;
-}
+/* .project-description-container {
+    
+} */
 
 .project-description-container > p {
     font-size: 18px;
@@ -50,7 +50,7 @@
 .selected-project-image-container {
     height: 60%;
     width: 98%;
-    border: 3px solid red;
+    object-fit: cover;
 }
 
 .selected-project-title-container > h4 {
@@ -58,9 +58,9 @@
     font-size: 24px;
 }
 
-.selected-project-description-container {
-    border: 3px solid black;
-}
+/* .selected-project-description-container {
+    
+} */
 
 .selected-project-description-container > p {
     margin-top: 10px;
