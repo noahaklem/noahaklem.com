@@ -21,3 +21,10 @@ task :server do
 
     exec "bundle exec rerun -b '#{rackup}'"
 end
+
+desc "load db for rake"
+namespace :db do 
+    task :load_config do
+        require "./app"
+    end
+end
