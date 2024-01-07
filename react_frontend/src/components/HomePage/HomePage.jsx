@@ -1,5 +1,5 @@
 import React from 'react'
-import ProfileCard from '../ProfileCard/ProfileCard'
+import HeroProfileCard from '../HeroProfileCard/HeroProfileCard'
 import './HomePage.css'
 import BigProfilePicture from "../../assets/BigProfilePicture.PNG"
 import SmallProfilePicture from "../../assets/SmallProfilePicture.jpg"
@@ -30,7 +30,7 @@ const HomePage = () => {
     const keys = Object.keys(profileData)
     return keys.map( key => {
       return (
-        <ProfileCard 
+        <HeroProfileCard 
           img={ profileData[key].img }
           title={ profileData[key].buttonTitle }
           path={ profileData[key].path }
@@ -44,7 +44,7 @@ const HomePage = () => {
     <div className='home-page'>
         <section className='home-page-hero'>
             <h1>Tagline for profile.</h1>
-            <img src={ BigProfilePicture } />
+            <img src={ BigProfilePicture } alt='something meaningful' />
         </section>
         <section className='home-page-cards-container'>
             { renderProfileCards(profileData) }

@@ -1,11 +1,11 @@
 import React from 'react'
 import "./Card.css"
 
-const Card = ({title, description, imgs}) => {
+const Card = ({title, description, imgs, alt}) => {
   const renderImages = (imgs) => {
     return imgs.map( img => {
       return ( 
-          <img src={ img } alt="image of something here"/> 
+          <img src={ img } alt= {alt}/> 
         )
     })
   }
@@ -20,7 +20,7 @@ const Card = ({title, description, imgs}) => {
         </div>
         {title === 'ABOUT' ? 
           <div className='image-container'>
-            <img src={imgs[0]} alt='about image' />
+            <img src={imgs[0]} alt={alt} />
           </div>
             :
           <div className='images-container'>

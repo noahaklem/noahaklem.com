@@ -9,17 +9,20 @@ const Profile = () => {
         about: {
             title: "ABOUT",
             description: "Put some stuff in here about me",
-            imgs: [SmallPicture]
+            imgs: [SmallPicture],
+            alt: "one picture"
         },
         technologies: {
             title: "TECHNOLOGIES",
             description: "Put some stuff in here about me",
-            imgs: [SmallPicture, SmallPicture, SmallPicture]
+            imgs: [SmallPicture, SmallPicture, SmallPicture],
+            alt: "multi pictures"
         },
         testimonials: {
             title: "TESTIMONIALS",
             description: "Put some stuff in here about me",
-            imgs: [SmallPicture, SmallPicture, SmallPicture, SmallPicture, SmallPicture, SmallPicture, SmallPicture ]
+            imgs: [SmallPicture, SmallPicture, SmallPicture, SmallPicture, SmallPicture, SmallPicture, SmallPicture ],
+            alt: "multi pictures"
         }
     }
 
@@ -31,6 +34,7 @@ const Profile = () => {
                     title={data[key].title}
                     description={data[key].description}
                     imgs={data[key].imgs}
+                    alt={data[key].alt}
                 />
             )
         })

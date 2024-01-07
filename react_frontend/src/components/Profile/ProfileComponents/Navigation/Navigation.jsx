@@ -6,7 +6,7 @@ const Navigation = () => {
   return (
     <nav className='navigation'>
         <div className='navigation-picture-container'>
-            <img src={ SmallProfilePicture } />
+            <img src={ SmallProfilePicture } alt="small profile pics" />
         </div>
         <div className='navigation-links-container'>
             <ul>
