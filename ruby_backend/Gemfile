@@ -1,4 +1,4 @@
-source = "https://rubygems.org"
+source "https://rubygems.org"
 
 # needed gems
 gem 'activerecord', '~> 7.1', '>= 7.1.2'
