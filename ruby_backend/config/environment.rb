@@ -1,11 +1,12 @@
 # set the environment
-ENV['RACK_ENV'] ||= "development"
+ENV['RACK_ENV'] ||= "development" 
+
+puts "RACK_ENV value is: #{ENV['RACK_ENV']}"
 
 # Require Gems before running
-require 'bundler'
-Bundle.require(:default, ENV['RACK_ENV'])
+Bundler.require(:default, ENV['RACK_ENV'])
 
 # load all files in app
-require_all "app"
+require_all 'app'
 
-puts "Environment loaded!"
+puts "Environment loaded!" 
