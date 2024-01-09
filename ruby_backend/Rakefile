@@ -25,6 +25,6 @@ end
 desc "load db for rake"
 namespace :db do 
     task :load_config do
-        require "./app"
+        require "./app/controllers/api/v1/application_controller.rb" 
     end
 end
