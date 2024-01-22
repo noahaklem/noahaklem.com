@@ -1,0 +1,45 @@
+.footer {
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+.footer-name {
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-name > h3 {
+    margin-left: 40px;
+    font-size: 18px;
+}
+
+.footer-name > img {
+    border-radius: 50%;
+    height: 50px;
+    
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-links > a {
+    margin: 0 0 0 20px;
+}
+
+.footer-thanks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-thanks > p {
+    margin-right: 20px;
+}
