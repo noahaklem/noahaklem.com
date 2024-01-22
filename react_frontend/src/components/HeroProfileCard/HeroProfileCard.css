@@ -1,0 +1,31 @@
+.profile-card {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-card > img {
+    opacity: 0.7;
+    width: 100%;
+}
+
+.button {
+    cursor: pointer;
+    position: absolute;
+    width: 25%;
+    height: 8%;
+    border-radius: 10px;
+    border: none;
+    font-size: 36px;
+    letter-spacing: 2px;
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
+}
+
+button {
+    background-color: bisque;
+}
