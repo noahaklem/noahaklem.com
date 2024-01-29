@@ -13,7 +13,6 @@
     display: flex;
     justify-content: space-between;
     height: 50%;
-    background-color: aliceblue;
 }
 
 .home-page-hero > h1 {
@@ -31,7 +30,6 @@
 }
 
 .home-page-cards-container {
-    background-color: aliceblue;
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -41,5 +39,4 @@
     bottom: 0;
     width: 100%;
     height: 250px;
-    background-color: aliceblue;
 }

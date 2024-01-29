@@ -1,0 +1,29 @@
+.project-technologies-container {
+    background-color: aqua;
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-description-images-container {
+    background-color: beige;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-description-images-container > img {
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.project-description-selected-image > img {
+    background-color: green;
+    width: 300px;
+    height: 300px;
+}

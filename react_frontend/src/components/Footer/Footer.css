@@ -26,12 +26,13 @@
 
 .footer-links {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    width: 33%;
 }
 
 .footer-links > a {
-    margin: 0 0 0 20px;
+    margin: 0 20px 0 20px;
 }
 
 .footer-thanks {
@@ -41,5 +42,5 @@
 }
 
 .footer-thanks > p {
-    margin-right: 20px;
+    margin-right: 60px;
 }

@@ -1,6 +1,9 @@
 .profile-card {
+    background-color: aqua;
     width: 33%;
     display: flex;
+    position: relative;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -10,11 +13,14 @@
     width: 100%;
 }
 
-.button {
+.profile-button {
     cursor: pointer;
     position: absolute;
-    width: 25%;
-    height: 8%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: 25%;
     border-radius: 10px;
     border: none;
     font-size: 36px;
@@ -24,8 +30,4 @@
 .button:hover {
     background-color: black;
     color: white;
-}
-
-button {
-    background-color: bisque;
 }
