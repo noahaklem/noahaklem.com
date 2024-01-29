@@ -1,5 +1,37 @@
 .testimonials {
-    background-color: brown;
-    height: 300px;
+    height: 250px;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.testimonials > h3 {
+    margin-top: 20px;
+    font-size: 38px;
+}
+
+.testimonials-list-container {
+    background-color: aliceblue;
+    width: 100%;
+}
+
+.testimonial-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.review {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.testimonial-container > img {
+    margin: 10px 0 10px 0;
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
 }
