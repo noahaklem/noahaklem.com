@@ -7,7 +7,7 @@ export const data = [
         name: "Front-End Development",
         tagline: "Humble beginnings : : Solid foundations ",
         url_path: "/frontend",
-        about: "From self taught developer.mozilla.org tutorials, to Flatiron School Full Stack Web Development graduate. I remember the excitment reading each tutorial and typing four lines of code. Whether it's optimizing performance, ensuring cross-browser compatibility, or implementing responsive design principles, I am dedicated to elevating the frontend experience to new heights. Let's create exceptional digital experiences together.",
+        about: "From self taught developer.mozilla.org tutorials, to a Flatiron School Full Stack Web Development graduate. I remember the excitment reading each tutorial and typing four lines of code. Whether it's optimizing performance, ensuring cross-browser compatibility, or implementing responsive design principles, I am dedicated to elevating the frontend experience to new heights. Let's create exceptional digital experiences together.",
         images: [ 
             {
                 id: 2,
@@ -18,6 +18,32 @@ export const data = [
             {
                 id: 1,
                 title: "That First One" ,
+                scope:"Some type of scope" ,
+                description: "Woah this could be a big long description.",
+                images: [ 
+                    {
+                        id: 2,
+                        image_data: smallpicture
+                    },
+                    {
+                        id: 2,
+                        image_data: smallpicture
+                    }
+                ],
+                technologies: [ 
+                    {
+                        id: 1,
+                        name: "JavaScript"
+                    }, 
+                    {
+                        id: 2,
+                        name: "Ruby"
+                    }
+                ]
+            },
+            {
+                id: 2,
+                title: "That Second One doe" ,
                 scope:"Some type of scope" ,
                 description: "Woah this could be a big long description.",
                 images: [ 
@@ -41,9 +67,9 @@ export const data = [
         testimonials: [
             {
                 id: 1,
-                review: "",
-                reviewer: "",
-                image: bigpicture
+                review: "Wow! dad is great! he makes roll call everytime but still not as good as mom.",
+                reviewer: "Big/Chubby Guy",
+                image: smallpicture
             }
         ]
     },

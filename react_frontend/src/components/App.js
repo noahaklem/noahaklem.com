@@ -5,7 +5,7 @@ import { data } from "../assets/profile_data/data"
 
 function App() {
 
-  const findByParams= (param) => {
+  const findByParams = (param) => {
     return data.filter( profile => {
       return profile.url_path === `/${param}`
     })
